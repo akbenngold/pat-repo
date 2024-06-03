@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  color: #272725;
+  /* background-color: #050505; */
+}
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #96d6d6;
+  transition: 0.4s;
+}
+
+.view-more svg {
+  width: 2rem;
+  color: #96d6d6;
+}
+
+.view-more.disabled svg {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+
+@media (hover: hover) {
+  a:hover {
+    text-decoration: underline;
+  }
+}
